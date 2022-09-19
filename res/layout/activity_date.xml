@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/baby"
+    tools:context=".dateActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Erinnerungsdatum "
+        android:id="@+id/tvDate"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/txt_btn"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/txt_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:text="Neue Erinnerung" />
+
+
+</RelativeLayout>

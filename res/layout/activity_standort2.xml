@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/baby"
+    tools:context=".dateActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Markiere ein Standort"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@color/black"
+        android:id="@+id/makiereStandort"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/wähleStandort"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/wähleStandort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/teal_700"
+        android:text="Wähle ein Standort"
+
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+
+    <Button
+        android:id="@+id/teileStandort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/wähleStandort"
+        android:layout_centerVertical="true"
+
+        android:layout_marginBottom="-147dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Teile ein Standort"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+</RelativeLayout>
+
